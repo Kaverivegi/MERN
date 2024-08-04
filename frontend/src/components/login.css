@@ -1,0 +1,88 @@
+/* Common styles for all screen sizes */
+.ex1 {
+    display: flex;
+    width: 100%;
+}
+
+.mainbuttons {
+    width: 200px;
+    background-color: transparent;
+    color: black;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("C:\Users\HP\Desktop\Study\frontend\public\bg2.jpg"); 
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+.login-form {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    max-width: 90%; /* Set maximum width for larger screens */
+}
+
+.login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgba(240, 128, 128, 0.9);
+    border: none;
+    border-radius: 5px;
+    color: lightcyan;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgba(0, 86, 179, 0.9);
+}
+
+/* Responsive styles for screens narrower than 768px (tablets and below) */
+@media (max-width: 768px) {
+    .login-form {
+        width: 80%; /* Adjust the width for smaller screens */
+    }
+}
+
+/* Responsive styles for screens narrower than 480px (mobile) */
+@media (max-width: 480px) {
+    .login-form {
+        width: 90%; /* Adjust the width for even smaller screens */
+    }
+}

@@ -1,0 +1,43 @@
+.main{
+    height:80%;
+    width:100%;
+    overflow-y: scroll;
+  }
+  img{
+    height:100%;
+    width:100%;
+  }
+  .img{
+    height:95%;
+    width:80%;
+    margin-left: 15%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background color */
+    color: #fff;
+    height: 10%;
+    backdrop-filter: blur(10px); /* Glass effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .header-left h1 {
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect for the company name */
+  }
+  .header-right{
+    display:flex
+  }
+  
+  .header-right button {
+    
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

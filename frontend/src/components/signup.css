@@ -1,0 +1,96 @@
+/* Common styles for all screen sizes */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-image: url('C:\Users\sanja\Desktop\chat\front-end\public\login.jpeg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+.login-form {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group .radio {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.input-group .radio div {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust the margin for both sides of radio buttons */
+.input-group .radio label {
+    margin: 0 20px; /* Adjust the margin as per your requirement */
+}
+
+button {
+    background-color: rgba(240, 128, 128, 0.9);
+    border: none;
+    border-radius: 5px;
+    color: lightcyan;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(0, 86, 179, 0.9);
+}
+
+@media (max-width: 768px) {
+    .login-form {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .input-group {
+        text-align: center;
+    }
+
+    .login-form {
+        max-width: 100%;
+    }
+}

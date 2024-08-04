@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background color */
+    color: #fff;
+    height: 10%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.footer-right a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}
